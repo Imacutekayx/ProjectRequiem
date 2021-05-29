@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -36,3 +37,18 @@ namespace Requiem {
         public static void ExportSave(){}
     }
 }
+=======
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Requiem
+{
+
+}
+
+public class Globals
+{
+    
+}
+>>>>>>> 0d1083479e54e40cfee121b869c5d55341182dd2
