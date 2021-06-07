@@ -14,6 +14,8 @@ namespace Requiem.Classes {
         public byte byt_magicalArmor;
         public byte byt_weight;
         public string[,] arr_effects;
+        //Ask Joseph
+        public string position;
 
         public Armor(){
 
