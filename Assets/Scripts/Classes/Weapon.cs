@@ -7,7 +7,7 @@ using Requiem.Classes;
 
 namespace Requiem.Classes {
     public class Weapon : Item {
-        public const string ITEMTYPE = "Weapon";
+        public new const string ITEMTYPE = "Weapon";
 
         public byte byt_damageValue;
         public string str_type;

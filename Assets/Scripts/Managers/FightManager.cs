@@ -13,23 +13,23 @@ namespace Requiem.Managers {
 
         public void AttackWeapon(byte byt_fighterIndex, byte byt_weaponIndex, byte byt_targetX, byte byt_targetY){}
 
-        public bool AttemptDodgeProjectile(byte byt_fighterReflex, byte byt_actionConcentration){}
+        public bool AttemptDodgeProjectile(byte byt_fighterReflex, byte byt_actionConcentration){ return true; }
 
         public void CastSpell(byte byt_fighterIndex, byte byt_spellIndex, byte byt_targetX, byte byt_targetY){}
 
         public void Execute(Action action){}
 
-        public bool AttemptRoll(byte byt_fighterStat, byte byt_disadvantage){}
+        public bool AttemptRoll(byte byt_fighterStat, byte byt_disadvantage){ return true; }
 
         public void DealAreaDamage(byte byt_originX, byte byt_originY, byte byt_zoneSize, string[,] arr_areaEffects){}
 
         public void UseItem(string str_type, byte byt_targetX, byte byt_targetY, string[,] arr_effects){}
 
-        private byte CalculateDamageDealt(byte byt_fighterDamage, byte byt_attackDamage){}
+        private byte CalculateDamageDealt(byte byt_fighterDamage, byte byt_attackDamage){ return 0; }
 
-        private bool AttemptAttack(byte byt_fighterPrecision, byte byt_attackPrecision){}
+        private bool AttemptAttack(byte byt_fighterPrecision, byte byt_attackPrecision){ return true; }
 
-        private byte CalculateCastTime(byte byt_fighterCast, byte byt_spellCast){}
+        private byte CalculateCastTime(byte byt_fighterCast, byte byt_spellCast){ return 0; }
 
         private void CreateProjectile(byte byt_targetX, byte byt_targetY, string str_type, string str_form, byte byt_length, byte byt_width, byte byt_speed, byte byt_sceneIndex, byte byt_sceneObjectIndex, string[,] arr_effects, byte[,] arr_path){}
 
@@ -39,12 +39,12 @@ namespace Requiem.Managers {
 
         private void ReceiveAttack(byte byt_fighterIndex, Dictionary<string, byte> arr_attacks){}
 
-        private bool AttemptParry(byte byt_fighterParry, string str_weaponType){}
+        private bool AttemptParry(byte byt_fighterParry, string str_weaponType){ return true; }
 
-        private bool AttemptDodge(byte byt_fighterDodge, byte byt_armorWeight, string str_weaponType){}
+        private bool AttemptDodge(byte byt_fighterDodge, byte byt_armorWeight, string str_weaponType){ return true; }
 
-        private byte CalculateDamageReceived(byte byt_fighterDefense, byte byt_armorDefense){}
+        private byte CalculateDamageReceived(byte byt_fighterDefense, byte byt_armorDefense){ return 0; }
 
-        private bool AttemptStatusRemoval(byte byt_fighterDefense, byte byt_statusDefense, byte byt_duration){}
+        private bool AttemptStatusRemoval(byte byt_fighterDefense, byte byt_statusDefense, byte byt_duration){ return true; }
     }
 }

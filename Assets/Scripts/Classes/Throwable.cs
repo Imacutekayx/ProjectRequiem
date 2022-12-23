@@ -7,7 +7,7 @@ using Requiem.Classes;
 
 namespace Requiem.Classes {
     public class Throwable : Item {
-        public const string ITEMTYPE = "Throwable";
+        public new const string ITEMTYPE = "Throwable";
 
         public byte byt_scope;
         public string[,] arr_effects;

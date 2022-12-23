@@ -11,7 +11,7 @@ namespace Requiem.Managers {
 
         public void Execute(Action action){}
 
-        public bool RollDice(byte byt_enemyIndex, string str_statName, byte byt_disadvantage){}
+        public bool RollDice(byte byt_enemyIndex, string str_statName, byte byt_disadvantage){ return true; }
 
         public void CheckVisibleFighter(byte byt_fighterIndex){}
 

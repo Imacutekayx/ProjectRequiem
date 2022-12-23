@@ -7,7 +7,7 @@ using Requiem.Classes;
 
 namespace Requiem.Classes {
     public class Modifier : Item {
-        public const string ITEMTYPE = "Modifier";
+        public new const string ITEMTYPE = "Modifier";
 
         public string[,] arr_effects;
 

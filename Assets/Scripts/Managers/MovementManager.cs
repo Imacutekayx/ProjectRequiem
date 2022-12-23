@@ -14,7 +14,7 @@ namespace Requiem.Managers {
 
         public void Execute(Action action){}
 
-        public byte[,] CalculatePath(byte byt_originX, byte byt_originY, byte byt_targetX, byte byt_targetY){}
+        public byte[,] CalculatePath(byte byt_originX, byte byt_originY, byte byt_targetX, byte byt_targetY){ return null; }
 
         private void StartMove(){}
     }
